@@ -191,8 +191,16 @@ def convert_md_to_html(md_file, html_file, title="Terms & Conditions"):
     print(f"Converted {md_file} to {html_file}")
 
 if __name__ == "__main__":
+    # Convert Terms & Conditions
     convert_md_to_html(
         "/home/vxl1/MyApps/tax-snap-app/tax_snap/docs/terms-and-conditions.md",
         "/home/vxl1/MyApps/tax-snap-app/tax_snap/docs/terms-v2.html",
         "Terms & Conditions v2.0"
+    )
+    
+    # Convert Privacy Policy
+    convert_md_to_html(
+        "/home/vxl1/MyApps/tax-snap-app/tax_snap/docs/privacy-policy.md",
+        "/home/vxl1/MyApps/tax-snap-app/tax_snap/docs/privacy-v1.html",
+        "Privacy Policy v1.0"
     )
