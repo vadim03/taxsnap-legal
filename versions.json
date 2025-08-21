@@ -1,0 +1,36 @@
+{
+  "terms": {
+    "current": "2.0",
+    "versions": [
+      {
+        "version": "2.0",
+        "date": "2024-12-20",
+        "effectiveDate": "2025-01-01",
+        "file": "terms-v2.html",
+        "isMajor": true,
+        "changes": [
+          "Added AI/OCR processing terms",
+          "Added GDPR compliance section",
+          "Added age requirements",
+          "Added intellectual property section",
+          "Enhanced data privacy terms",
+          "Added tax advice disclaimer"
+        ],
+        "requiresAcceptance": true
+      }
+    ]
+  },
+  "privacy": {
+    "current": "1.0",
+    "versions": [
+      {
+        "version": "1.0",
+        "date": "2024-12-20",
+        "effectiveDate": "2025-01-01",
+        "file": "privacy-v1.html",
+        "isMajor": true,
+        "requiresAcceptance": true
+      }
+    ]
+  }
+}
